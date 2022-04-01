@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/server.js",
     "build": "babel src -d dist --copy-files",
-    "start": "nodemon --exec npx babel-node src/server.js",
-    "serve": "npm run build && node dist/server.js",
+    "dev": "nodemon --exec npx babel-node src/server.js",
     "test": "jest"
   },
   "keywords": [],
