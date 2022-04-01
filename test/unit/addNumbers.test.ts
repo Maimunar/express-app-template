@@ -1,4 +1,4 @@
-import { parseNumbers, calculateNumbers } from 'services/addNumbers'
+import { parseNumbers, calculateNumbers } from '../../src/services/addNumbers'
 import {
   CORRECT_NUMS_ARR,
   CORRECT_NUMS_STRING,

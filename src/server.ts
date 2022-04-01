@@ -1,6 +1,9 @@
+import 'module-alias/register'
+import 'source-map-support/register'
+import 'dotenv/config'
+
 import bodyParser from 'body-parser'
 import express from 'express'
-import 'dotenv/config'
 
 import routes from './routes'
 

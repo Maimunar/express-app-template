@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import addNumbers from 'controllers/addNumbers'
+import addNumbers from '@src/controllers/addNumbers'
 
 const router = Router()
 

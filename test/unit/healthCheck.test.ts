@@ -1,5 +1,5 @@
-import { getCheckInfo } from 'services/healthCheck'
 import 'dotenv/config'
+import { getCheckInfo } from '../../src/services/healthCheck'
 import { REAL_CHECK_INFO } from '../utils/constants'
 
 describe('Health Check', () => {
