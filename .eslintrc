@@ -5,9 +5,11 @@
   },
   "env": {
     "node": true,
-    "es6": true
+    "es6": true,
+    "jest/globals": true
   },
-  "extends": "airbnb-base",
+  "extends": ["airbnb-base"],
+  "plugins": ["jest"],
   "rules": {
     "no-multiple-empty-lines": "warn",
     "no-var": "error",
@@ -16,6 +18,8 @@
     "linebreak-style": "off",
     "no-console": "off",
     "import/prefer-default-export": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "curly": "off",
+    "nonblock-statement-body-position": "off"
   }
 }

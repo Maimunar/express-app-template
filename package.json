@@ -7,7 +7,7 @@
     "build": "babel src -d dist --copy-files",
     "start": "nodemon --exec npx babel-node src/server.js",
     "serve": "npm run build && node dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +28,8 @@
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^26.1.3",
+    "jest": "^27.5.1",
     "nodemon": "^2.0.15",
     "prettier": "^2.6.1"
   }

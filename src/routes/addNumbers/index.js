@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import addTwoNumbers from 'controllers/addTwoNumbers'
+import addNumbers from 'controllers/addNumbers'
 
 const router = Router()
 
-router.post('/', addTwoNumbers)
+router.post('/', addNumbers)
 
 export default router
