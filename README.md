@@ -13,3 +13,8 @@
 - Developing - `npm run dev`
 - Serving production `npm run build && npm start`
 - Testing - `npm run test`
+
+### Running a Docker Image:
+
+- `docker build -t express-template . `
+- `docker run -p 8000:8000 express-template`
