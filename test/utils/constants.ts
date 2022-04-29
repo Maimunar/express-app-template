@@ -15,3 +15,4 @@ export const CORRECT_NUMS_STRING = '1,2'
 export const CORRECT_NUMS_ARR = ['1', '2']
 export const CORRECT_RESULT_PARSE = [1, 2]
 export const CORRECT_RESULT = 3
+export const INCORRECT_NUM_FORMAT = 'Incorrect format for numbers!'

@@ -1,4 +1,4 @@
-import { ParsedNumbers, UnparsedNumbers } from '@src/types/addNumbers.types'
+import { ParsedNumbers, UnparsedNumbers } from '../types/addNumbers.types'
 
 /**
  * Parse Input which can be a list if parsed from JSON or a string if parsed from urlencoded

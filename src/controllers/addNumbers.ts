@@ -1,5 +1,5 @@
-import { parseNumbers, calculateNumbers } from '@src/services/addNumbers'
-import { ControllerFunction } from '@src/types/controllers.types'
+import { parseNumbers, calculateNumbers } from '../services/addNumbers'
+import { ControllerFunction } from '../types/controllers.types'
 
 const addNumbers: ControllerFunction = (req, res) => {
   let numbers
